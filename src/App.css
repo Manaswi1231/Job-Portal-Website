@@ -1,0 +1,59 @@
+/* App.css */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f7f2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.header {
+  background-color: #e9f1db;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #d1deb3;
+  border-radius: 50px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  font-size: 1rem;
+  padding-left: 15px;
+}
+
+.search-bar button {
+  background-color: #6c944f;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  color: white;
+}

@@ -1,0 +1,61 @@
+/*Navbar.css*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f3f3e9;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.job {
+  color: #000;
+}
+
+.portal {
+  color: #e74c3c;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-left: 2rem;
+}
+
+.login-btn,
+.signup-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.login-btn {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.signup-btn {
+  background-color: #8e44ad;
+  color: white;
+}
