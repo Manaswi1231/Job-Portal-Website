@@ -10,9 +10,9 @@ import {
   Box,
   Chip,
   CircularProgress,
-  Alert,
-} from "@mui/material";
+} from "@material-ui/core";
 import axios from "axios";
+import { Alert } from "@material-ui/lab";
 
 const Profile = () => {
   const [profile, setProfile] = useState({
@@ -74,11 +74,7 @@ const Profile = () => {
 
     try {
       const token = localStorage.getItem("jwt");
-      const response = await axios.put(
-        `${process.env.REACT_APP_API_URL}/profile`,
-        profile,
-        { headers: { Authorization: `Bearer ${token}` } }
-      );
+
       setSuccess("Profile updated successfully");
     } catch (error) {
       setErr(error?.response?.data?.message || "Update failed");

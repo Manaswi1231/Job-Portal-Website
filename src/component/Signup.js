@@ -9,10 +9,10 @@ import {
   Paper,
   Grid,
   Box,
-  Alert,
   CircularProgress,
-} from "@mui/material";
+} from "@material-ui/core";
 import axios from "axios";
+import { Alert } from "@material-ui/lab";
 
 const Signup = () => {
   const [formData, setFormData] = useState({

@@ -7,9 +7,9 @@ import {
   Typography,
   Paper,
   Grid,
-  Alert,
   CircularProgress,
-} from "@mui/material";
+} from "@material-ui/core";
+import { Alert } from "@material-ui/lab";
 import axios from "axios";
 
 const Login = ({ onLogin }) => {
